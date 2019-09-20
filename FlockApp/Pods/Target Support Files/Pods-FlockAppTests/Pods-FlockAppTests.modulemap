@@ -1,0 +1,6 @@
+framework module Pods_FlockAppTests {
+  umbrella header "Pods-FlockAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451554D9F101042EF860A551 /* Pods_FlockAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA76C49991655B8AB879EDAE /* Pods_FlockAppUITests.framework */; };
+		846ABB242331046E00E8D2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846ABB232331046E00E8D2AC /* Assets.xcassets */; };
+		846ABB272331046E00E8D2AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846ABB252331046E00E8D2AC /* LaunchScreen.storyboard */; };
+		846ABB322331046E00E8D2AC /* FlockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB312331046E00E8D2AC /* FlockAppTests.swift */; };
+		846ABB3D2331046E00E8D2AC /* FlockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB3C2331046E00E8D2AC /* FlockAppUITests.swift */; };
+		846ABB7B2331067A00E8D2AC /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846ABB5D2331067900E8D2AC /* Feed.storyboard */; };
+		846ABB7C2331067A00E8D2AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB5F2331067900E8D2AC /* AppDelegate.swift */; };
+		846ABB7D2331067A00E8D2AC /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB622331067900E8D2AC /* SharedClass.swift */; };
+		846ABB7E2331067A00E8D2AC /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB642331067900E8D2AC /* DownloadManager.swift */; };
+		846ABB7F2331067A00E8D2AC /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846ABB662331067900E8D2AC /* LoaderView.xib */; };
+		846ABB802331067A00E8D2AC /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB672331067900E8D2AC /* LoaderView.swift */; };
+		846ABB812331067A00E8D2AC /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB692331067900E8D2AC /* WebServiceManager.swift */; };
+		846ABB822331067A00E8D2AC /* FeedWSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB6A2331067900E8D2AC /* FeedWSManager.swift */; };
+		846ABB832331067A00E8D2AC /* Dictionary+Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB6D2331067A00E8D2AC /* Dictionary+Decoder.swift */; };
+		846ABB842331067A00E8D2AC /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB6F2331067A00E8D2AC /* UIColor+Hex.swift */; };
+		846ABB852331067A00E8D2AC /* UIImage+TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB702331067A00E8D2AC /* UIImage+TintColor.swift */; };
+		846ABB862331067A00E8D2AC /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB712331067A00E8D2AC /* UITableView+Additions.swift */; };
+		846ABB882331067A00E8D2AC /* String+Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB732331067A00E8D2AC /* String+Operation.swift */; };
+		846ABB892331067A00E8D2AC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB752331067A00E8D2AC /* Reachability.swift */; };
+		846ABB8A2331067A00E8D2AC /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB772331067A00E8D2AC /* AlertManager.swift */; };
+		846ABB8B2331067A00E8D2AC /* UIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB792331067A00E8D2AC /* UIConstant.swift */; };
+		846ABB8C2331067A00E8D2AC /* URLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB7A2331067A00E8D2AC /* URLConstant.swift */; };
+		846ABB8E23310CEC00E8D2AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB8D23310CEC00E8D2AC /* LoginViewController.swift */; };
+		846ABB902331101E00E8D2AC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB8F2331101E00E8D2AC /* Constant.swift */; };
+		846ABB922331115700E8D2AC /* LoginVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB912331115700E8D2AC /* LoginVMModel.swift */; };
+		846ABB972331151F00E8D2AC /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846ABB962331151F00E8D2AC /* LoginUser.swift */; };
+		8473F9D7233241760067EB60 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473F9D6233241760067EB60 /* BorderTextField.swift */; };
+		8473F9D9233263480067EB60 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473F9D8233263480067EB60 /* SignUpViewController.swift */; };
+		8473F9DB233263590067EB60 /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473F9DA233263590067EB60 /* FeedListViewController.swift */; };
+		84C6F840233354010073D1CF /* SignUpVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F83F233354010073D1CF /* SignUpVMModel.swift */; };
+		84C6F843233361880073D1CF /* BoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F842233361880073D1CF /* BoxButton.swift */; };
+		84C6F846233387730073D1CF /* FeedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F844233387730073D1CF /* FeedListCell.swift */; };
+		84C6F847233387730073D1CF /* FeedListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F845233387730073D1CF /* FeedListCell.xib */; };
+		84C6F849233388330073D1CF /* FeedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F848233388330073D1CF /* FeedList.swift */; };
+		84C6F84B23338F1B0073D1CF /* FeedListVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F84A23338F1B0073D1CF /* FeedListVMModel.swift */; };
+		84C6F84D23338F290073D1CF /* FeedCellVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F84C23338F290073D1CF /* FeedCellVMModel.swift */; };
+		84C6F8502333A36F0073D1CF /* AttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F84F2333A36E0073D1CF /* AttributedLabel.swift */; };
+		84C6F8572333A6A10073D1CF /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F8532333A6A10073D1CF /* CloseButton.swift */; };
+		84C6F8582333A6A10073D1CF /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F8542333A6A10073D1CF /* TagView.swift */; };
+		84C6F8592333A6A10073D1CF /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F8552333A6A10073D1CF /* TagListView.swift */; };
+		C87C6C3560AC74BF4E15A7E3 /* Pods_FlockAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17122E169E700B92C2C2F05 /* Pods_FlockAppTests.framework */; };
+		CAE7DCDB13AF65DD1060C93C /* Pods_FlockApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3039F3BC08EB14C9A796CB /* Pods_FlockApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846ABB2E2331046E00E8D2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846ABB112331046C00E8D2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846ABB182331046C00E8D2AC;
+			remoteInfo = FlockApp;
+		};
+		846ABB392331046E00E8D2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846ABB112331046C00E8D2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846ABB182331046C00E8D2AC;
+			remoteInfo = FlockApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010405A03EB8D7F4A1C7A1E5 /* Pods-FlockAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FlockAppUITests/Pods-FlockAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23790ED0BBB70E138B43EB36 /* Pods-FlockApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.release.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.release.xcconfig"; sourceTree = "<group>"; };
+		336F25A72820119525C6D7A0 /* Pods-FlockAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockAppTests.release.xcconfig"; path = "Target Support Files/Pods-FlockAppTests/Pods-FlockAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B3039F3BC08EB14C9A796CB /* Pods_FlockApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABB192331046C00E8D2AC /* FlockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABB232331046E00E8D2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846ABB262331046E00E8D2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846ABB282331046E00E8D2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846ABB2D2331046E00E8D2AC /* FlockAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABB312331046E00E8D2AC /* FlockAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockAppTests.swift; sourceTree = "<group>"; };
+		846ABB332331046E00E8D2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846ABB382331046E00E8D2AC /* FlockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABB3C2331046E00E8D2AC /* FlockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockAppUITests.swift; sourceTree = "<group>"; };
+		846ABB3E2331046E00E8D2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846ABB5D2331067900E8D2AC /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		846ABB5F2331067900E8D2AC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846ABB622331067900E8D2AC /* SharedClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		846ABB642331067900E8D2AC /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		846ABB662331067900E8D2AC /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
+		846ABB672331067900E8D2AC /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		846ABB692331067900E8D2AC /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		846ABB6A2331067900E8D2AC /* FeedWSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedWSManager.swift; sourceTree = "<group>"; };
+		846ABB6D2331067A00E8D2AC /* Dictionary+Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Decoder.swift"; sourceTree = "<group>"; };
+		846ABB6F2331067A00E8D2AC /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		846ABB702331067A00E8D2AC /* UIImage+TintColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TintColor.swift"; sourceTree = "<group>"; };
+		846ABB712331067A00E8D2AC /* UITableView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
+		846ABB732331067A00E8D2AC /* String+Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Operation.swift"; sourceTree = "<group>"; };
+		846ABB752331067A00E8D2AC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		846ABB772331067A00E8D2AC /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		846ABB792331067A00E8D2AC /* UIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstant.swift; sourceTree = "<group>"; };
+		846ABB7A2331067A00E8D2AC /* URLConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstant.swift; sourceTree = "<group>"; };
+		846ABB8D23310CEC00E8D2AC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		846ABB8F2331101E00E8D2AC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		846ABB912331115700E8D2AC /* LoginVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVMModel.swift; sourceTree = "<group>"; };
+		846ABB962331151F00E8D2AC /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		8473F9D6233241760067EB60 /* BorderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
+		8473F9D8233263480067EB60 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8473F9DA233263590067EB60 /* FeedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
+		84C6F83F233354010073D1CF /* SignUpVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVMModel.swift; sourceTree = "<group>"; };
+		84C6F842233361880073D1CF /* BoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxButton.swift; sourceTree = "<group>"; };
+		84C6F844233387730073D1CF /* FeedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListCell.swift; sourceTree = "<group>"; };
+		84C6F845233387730073D1CF /* FeedListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedListCell.xib; sourceTree = "<group>"; };
+		84C6F848233388330073D1CF /* FeedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedList.swift; sourceTree = "<group>"; };
+		84C6F84A23338F1B0073D1CF /* FeedListVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListVMModel.swift; sourceTree = "<group>"; };
+		84C6F84C23338F290073D1CF /* FeedCellVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellVMModel.swift; sourceTree = "<group>"; };
+		84C6F84F2333A36E0073D1CF /* AttributedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedLabel.swift; sourceTree = "<group>"; };
+		84C6F8522333A6A10073D1CF /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
+		84C6F8532333A6A10073D1CF /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		84C6F8542333A6A10073D1CF /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		84C6F8552333A6A10073D1CF /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		A4A43C58597463D7DEFABFA9 /* Pods-FlockAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FlockAppTests/Pods-FlockAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA76C49991655B8AB879EDAE /* Pods_FlockAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5DC71F18772BFB50CA5520 /* Pods-FlockApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.debug.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F08DD225A157220A054D8A7E /* Pods-FlockAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlockAppUITests/Pods-FlockAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F17122E169E700B92C2C2F05 /* Pods_FlockAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846ABB162331046C00E8D2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE7DCDB13AF65DD1060C93C /* Pods_FlockApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABB2A2331046E00E8D2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87C6C3560AC74BF4E15A7E3 /* Pods_FlockAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABB352331046E00E8D2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451554D9F101042EF860A551 /* Pods_FlockAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B508F28177FA1D201DDD7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE5DC71F18772BFB50CA5520 /* Pods-FlockApp.debug.xcconfig */,
+				23790ED0BBB70E138B43EB36 /* Pods-FlockApp.release.xcconfig */,
+				A4A43C58597463D7DEFABFA9 /* Pods-FlockAppTests.debug.xcconfig */,
+				336F25A72820119525C6D7A0 /* Pods-FlockAppTests.release.xcconfig */,
+				F08DD225A157220A054D8A7E /* Pods-FlockAppUITests.debug.xcconfig */,
+				010405A03EB8D7F4A1C7A1E5 /* Pods-FlockAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18BBC043C0772043A94D508D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B3039F3BC08EB14C9A796CB /* Pods_FlockApp.framework */,
+				F17122E169E700B92C2C2F05 /* Pods_FlockAppTests.framework */,
+				AA76C49991655B8AB879EDAE /* Pods_FlockAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846ABB102331046C00E8D2AC = {
+			isa = PBXGroup;
+			children = (
+				846ABB1B2331046C00E8D2AC /* FlockApp */,
+				846ABB302331046E00E8D2AC /* FlockAppTests */,
+				846ABB3B2331046E00E8D2AC /* FlockAppUITests */,
+				846ABB1A2331046C00E8D2AC /* Products */,
+				05B508F28177FA1D201DDD7F /* Pods */,
+				18BBC043C0772043A94D508D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846ABB1A2331046C00E8D2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB192331046C00E8D2AC /* FlockApp.app */,
+				846ABB2D2331046E00E8D2AC /* FlockAppTests.xctest */,
+				846ABB382331046E00E8D2AC /* FlockAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846ABB1B2331046C00E8D2AC /* FlockApp */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB5E2331067900E8D2AC /* AppDelegate */,
+				846ABB782331067A00E8D2AC /* Constants */,
+				846ABB6B2331067900E8D2AC /* HelperClass */,
+				846ABB762331067A00E8D2AC /* Manager */,
+				846ABB4A2331067900E8D2AC /* Modules */,
+				846ABB5C2331067900E8D2AC /* Storyboard */,
+				846ABB602331067900E8D2AC /* Utility */,
+				846ABB682331067900E8D2AC /* WebService */,
+				846ABB232331046E00E8D2AC /* Assets.xcassets */,
+				846ABB252331046E00E8D2AC /* LaunchScreen.storyboard */,
+				846ABB282331046E00E8D2AC /* Info.plist */,
+			);
+			path = FlockApp;
+			sourceTree = "<group>";
+		};
+		846ABB302331046E00E8D2AC /* FlockAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB312331046E00E8D2AC /* FlockAppTests.swift */,
+				846ABB332331046E00E8D2AC /* Info.plist */,
+			);
+			path = FlockAppTests;
+			sourceTree = "<group>";
+		};
+		846ABB3B2331046E00E8D2AC /* FlockAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB3C2331046E00E8D2AC /* FlockAppUITests.swift */,
+				846ABB3E2331046E00E8D2AC /* Info.plist */,
+			);
+			path = FlockAppUITests;
+			sourceTree = "<group>";
+		};
+		846ABB4A2331067900E8D2AC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB4B2331067900E8D2AC /* ViewModel */,
+				846ABB532331067900E8D2AC /* Model */,
+				846ABB542331067900E8D2AC /* View */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		846ABB4B2331067900E8D2AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB4E2331067900E8D2AC /* Login */,
+				846ABB4C2331067900E8D2AC /* SignUp */,
+				846ABB502331067900E8D2AC /* FeedList */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		846ABB4C2331067900E8D2AC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB4D2331067900E8D2AC /* ViewController */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		846ABB4D2331067900E8D2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F83F233354010073D1CF /* SignUpVMModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846ABB4E2331067900E8D2AC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB4F2331067900E8D2AC /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		846ABB4F2331067900E8D2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB912331115700E8D2AC /* LoginVMModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846ABB502331067900E8D2AC /* FeedList */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB512331067900E8D2AC /* Cell */,
+				846ABB522331067900E8D2AC /* ViewController */,
+			);
+			path = FeedList;
+			sourceTree = "<group>";
+		};
+		846ABB512331067900E8D2AC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F84C23338F290073D1CF /* FeedCellVMModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		846ABB522331067900E8D2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F84A23338F1B0073D1CF /* FeedListVMModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846ABB532331067900E8D2AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB942331150E00E8D2AC /* Login */,
+				846ABB932331150E00E8D2AC /* FeedList */,
+				846ABB952331150E00E8D2AC /* SignUp */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		846ABB542331067900E8D2AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB572331067900E8D2AC /* Login */,
+				846ABB552331067900E8D2AC /* SignUp */,
+				846ABB592331067900E8D2AC /* FeedList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846ABB552331067900E8D2AC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB562331067900E8D2AC /* ViewController */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		846ABB562331067900E8D2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8473F9D8233263480067EB60 /* SignUpViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846ABB572331067900E8D2AC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB582331067900E8D2AC /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		846ABB582331067900E8D2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB8D23310CEC00E8D2AC /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846ABB592331067900E8D2AC /* FeedList */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB5A2331067900E8D2AC /* Cell */,
+				846ABB5B2331067900E8D2AC /* ViewController */,
+			);
+			path = FeedList;
+			sourceTree = "<group>";
+		};
+		846ABB5A2331067900E8D2AC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F844233387730073D1CF /* FeedListCell.swift */,
+				84C6F845233387730073D1CF /* FeedListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		846ABB5B2331067900E8D2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8473F9DA233263590067EB60 /* FeedListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846ABB5C2331067900E8D2AC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB5D2331067900E8D2AC /* Feed.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		846ABB5E2331067900E8D2AC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB5F2331067900E8D2AC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		846ABB602331067900E8D2AC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F8512333A6A10073D1CF /* TagListView */,
+				84C6F84E2333A36E0073D1CF /* AttributedLabel */,
+				84C6F8412333617E0073D1CF /* BoxButton */,
+				8473F9D5233241760067EB60 /* BorderTextField */,
+				846ABB612331067900E8D2AC /* SharedClass */,
+				846ABB632331067900E8D2AC /* DownloadManager */,
+				846ABB652331067900E8D2AC /* LoaderView */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		846ABB612331067900E8D2AC /* SharedClass */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB622331067900E8D2AC /* SharedClass.swift */,
+			);
+			path = SharedClass;
+			sourceTree = "<group>";
+		};
+		846ABB632331067900E8D2AC /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB642331067900E8D2AC /* DownloadManager.swift */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		846ABB652331067900E8D2AC /* LoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB672331067900E8D2AC /* LoaderView.swift */,
+				846ABB662331067900E8D2AC /* LoaderView.xib */,
+			);
+			path = LoaderView;
+			sourceTree = "<group>";
+		};
+		846ABB682331067900E8D2AC /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB692331067900E8D2AC /* WebServiceManager.swift */,
+				846ABB6A2331067900E8D2AC /* FeedWSManager.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		846ABB6B2331067900E8D2AC /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB6C2331067A00E8D2AC /* Generics */,
+				846ABB6E2331067A00E8D2AC /* Extension */,
+				846ABB742331067A00E8D2AC /* Reachability */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		846ABB6C2331067A00E8D2AC /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB6D2331067A00E8D2AC /* Dictionary+Decoder.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		846ABB6E2331067A00E8D2AC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB6F2331067A00E8D2AC /* UIColor+Hex.swift */,
+				846ABB702331067A00E8D2AC /* UIImage+TintColor.swift */,
+				846ABB712331067A00E8D2AC /* UITableView+Additions.swift */,
+				846ABB732331067A00E8D2AC /* String+Operation.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		846ABB742331067A00E8D2AC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB752331067A00E8D2AC /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		846ABB762331067A00E8D2AC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB772331067A00E8D2AC /* AlertManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		846ABB782331067A00E8D2AC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB8F2331101E00E8D2AC /* Constant.swift */,
+				846ABB792331067A00E8D2AC /* UIConstant.swift */,
+				846ABB7A2331067A00E8D2AC /* URLConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		846ABB932331150E00E8D2AC /* FeedList */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F848233388330073D1CF /* FeedList.swift */,
+			);
+			path = FeedList;
+			sourceTree = "<group>";
+		};
+		846ABB942331150E00E8D2AC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				846ABB962331151F00E8D2AC /* LoginUser.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		846ABB952331150E00E8D2AC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		8473F9D5233241760067EB60 /* BorderTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8473F9D6233241760067EB60 /* BorderTextField.swift */,
+			);
+			path = BorderTextField;
+			sourceTree = "<group>";
+		};
+		84C6F8412333617E0073D1CF /* BoxButton */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F842233361880073D1CF /* BoxButton.swift */,
+			);
+			path = BoxButton;
+			sourceTree = "<group>";
+		};
+		84C6F84E2333A36E0073D1CF /* AttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F84F2333A36E0073D1CF /* AttributedLabel.swift */,
+			);
+			path = AttributedLabel;
+			sourceTree = "<group>";
+		};
+		84C6F8512333A6A10073D1CF /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F8522333A6A10073D1CF /* TagListView.h */,
+				84C6F8532333A6A10073D1CF /* CloseButton.swift */,
+				84C6F8542333A6A10073D1CF /* TagView.swift */,
+				84C6F8552333A6A10073D1CF /* TagListView.swift */,
+			);
+			path = TagListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846ABB182331046C00E8D2AC /* FlockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ABB412331046E00E8D2AC /* Build configuration list for PBXNativeTarget "FlockApp" */;
+			buildPhases = (
+				67288AB51CCD62B5D57D830A /* [CP] Check Pods Manifest.lock */,
+				846ABB152331046C00E8D2AC /* Sources */,
+				846ABB162331046C00E8D2AC /* Frameworks */,
+				846ABB172331046C00E8D2AC /* Resources */,
+				D16B43F235070073343CC875 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlockApp;
+			productName = FlockApp;
+			productReference = 846ABB192331046C00E8D2AC /* FlockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846ABB2C2331046E00E8D2AC /* FlockAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ABB442331046E00E8D2AC /* Build configuration list for PBXNativeTarget "FlockAppTests" */;
+			buildPhases = (
+				02986A437CFF19300F6CCCE4 /* [CP] Check Pods Manifest.lock */,
+				846ABB292331046E00E8D2AC /* Sources */,
+				846ABB2A2331046E00E8D2AC /* Frameworks */,
+				846ABB2B2331046E00E8D2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846ABB2F2331046E00E8D2AC /* PBXTargetDependency */,
+			);
+			name = FlockAppTests;
+			productName = FlockAppTests;
+			productReference = 846ABB2D2331046E00E8D2AC /* FlockAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846ABB372331046E00E8D2AC /* FlockAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ABB472331046E00E8D2AC /* Build configuration list for PBXNativeTarget "FlockAppUITests" */;
+			buildPhases = (
+				E8208318FC1A5625C7178BB7 /* [CP] Check Pods Manifest.lock */,
+				846ABB342331046E00E8D2AC /* Sources */,
+				846ABB352331046E00E8D2AC /* Frameworks */,
+				846ABB362331046E00E8D2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846ABB3A2331046E00E8D2AC /* PBXTargetDependency */,
+			);
+			name = FlockAppUITests;
+			productName = FlockAppUITests;
+			productReference = 846ABB382331046E00E8D2AC /* FlockAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846ABB112331046C00E8D2AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					846ABB182331046C00E8D2AC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					846ABB2C2331046E00E8D2AC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 846ABB182331046C00E8D2AC;
+					};
+					846ABB372331046E00E8D2AC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 846ABB182331046C00E8D2AC;
+					};
+				};
+			};
+			buildConfigurationList = 846ABB142331046C00E8D2AC /* Build configuration list for PBXProject "FlockApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846ABB102331046C00E8D2AC;
+			productRefGroup = 846ABB1A2331046C00E8D2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846ABB182331046C00E8D2AC /* FlockApp */,
+				846ABB2C2331046E00E8D2AC /* FlockAppTests */,
+				846ABB372331046E00E8D2AC /* FlockAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846ABB172331046C00E8D2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F847233387730073D1CF /* FeedListCell.xib in Resources */,
+				846ABB272331046E00E8D2AC /* LaunchScreen.storyboard in Resources */,
+				846ABB7F2331067A00E8D2AC /* LoaderView.xib in Resources */,
+				846ABB242331046E00E8D2AC /* Assets.xcassets in Resources */,
+				846ABB7B2331067A00E8D2AC /* Feed.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABB2B2331046E00E8D2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABB362331046E00E8D2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02986A437CFF19300F6CCCE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlockAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67288AB51CCD62B5D57D830A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlockApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16B43F235070073343CC875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlockApp/Pods-FlockApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlockApp/Pods-FlockApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlockApp/Pods-FlockApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8208318FC1A5625C7178BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlockAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846ABB152331046C00E8D2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F840233354010073D1CF /* SignUpVMModel.swift in Sources */,
+				8473F9D9233263480067EB60 /* SignUpViewController.swift in Sources */,
+				846ABB882331067A00E8D2AC /* String+Operation.swift in Sources */,
+				846ABB812331067A00E8D2AC /* WebServiceManager.swift in Sources */,
+				84C6F84B23338F1B0073D1CF /* FeedListVMModel.swift in Sources */,
+				8473F9D7233241760067EB60 /* BorderTextField.swift in Sources */,
+				84C6F846233387730073D1CF /* FeedListCell.swift in Sources */,
+				84C6F8592333A6A10073D1CF /* TagListView.swift in Sources */,
+				846ABB842331067A00E8D2AC /* UIColor+Hex.swift in Sources */,
+				8473F9DB233263590067EB60 /* FeedListViewController.swift in Sources */,
+				846ABB852331067A00E8D2AC /* UIImage+TintColor.swift in Sources */,
+				846ABB832331067A00E8D2AC /* Dictionary+Decoder.swift in Sources */,
+				846ABB7C2331067A00E8D2AC /* AppDelegate.swift in Sources */,
+				846ABB972331151F00E8D2AC /* LoginUser.swift in Sources */,
+				846ABB922331115700E8D2AC /* LoginVMModel.swift in Sources */,
+				84C6F849233388330073D1CF /* FeedList.swift in Sources */,
+				84C6F843233361880073D1CF /* BoxButton.swift in Sources */,
+				84C6F84D23338F290073D1CF /* FeedCellVMModel.swift in Sources */,
+				846ABB862331067A00E8D2AC /* UITableView+Additions.swift in Sources */,
+				846ABB802331067A00E8D2AC /* LoaderView.swift in Sources */,
+				846ABB8B2331067A00E8D2AC /* UIConstant.swift in Sources */,
+				84C6F8502333A36F0073D1CF /* AttributedLabel.swift in Sources */,
+				846ABB8C2331067A00E8D2AC /* URLConstant.swift in Sources */,
+				846ABB822331067A00E8D2AC /* FeedWSManager.swift in Sources */,
+				846ABB902331101E00E8D2AC /* Constant.swift in Sources */,
+				846ABB7E2331067A00E8D2AC /* DownloadManager.swift in Sources */,
+				846ABB8E23310CEC00E8D2AC /* LoginViewController.swift in Sources */,
+				846ABB7D2331067A00E8D2AC /* SharedClass.swift in Sources */,
+				84C6F8572333A6A10073D1CF /* CloseButton.swift in Sources */,
+				846ABB8A2331067A00E8D2AC /* AlertManager.swift in Sources */,
+				846ABB892331067A00E8D2AC /* Reachability.swift in Sources */,
+				84C6F8582333A6A10073D1CF /* TagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABB292331046E00E8D2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ABB322331046E00E8D2AC /* FlockAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABB342331046E00E8D2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ABB3D2331046E00E8D2AC /* FlockAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846ABB2F2331046E00E8D2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846ABB182331046C00E8D2AC /* FlockApp */;
+			targetProxy = 846ABB2E2331046E00E8D2AC /* PBXContainerItemProxy */;
+		};
+		846ABB3A2331046E00E8D2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846ABB182331046C00E8D2AC /* FlockApp */;
+			targetProxy = 846ABB392331046E00E8D2AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846ABB252331046E00E8D2AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846ABB262331046E00E8D2AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846ABB3F2331046E00E8D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846ABB402331046E00E8D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846ABB422331046E00E8D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5DC71F18772BFB50CA5520 /* Pods-FlockApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FlockApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.FlockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		846ABB432331046E00E8D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23790ED0BBB70E138B43EB36 /* Pods-FlockApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FlockApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.FlockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		846ABB452331046E00E8D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A43C58597463D7DEFABFA9 /* Pods-FlockAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = FlockAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.FlockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlockApp.app/FlockApp";
+			};
+			name = Debug;
+		};
+		846ABB462331046E00E8D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336F25A72820119525C6D7A0 /* Pods-FlockAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = FlockAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.FlockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlockApp.app/FlockApp";
+			};
+			name = Release;
+		};
+		846ABB482331046E00E8D2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08DD225A157220A054D8A7E /* Pods-FlockAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = FlockAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.FlockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlockApp;
+			};
+			name = Debug;
+		};
+		846ABB492331046E00E8D2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010405A03EB8D7F4A1C7A1E5 /* Pods-FlockAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = FlockAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.FlockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlockApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846ABB142331046C00E8D2AC /* Build configuration list for PBXProject "FlockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABB3F2331046E00E8D2AC /* Debug */,
+				846ABB402331046E00E8D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846ABB412331046E00E8D2AC /* Build configuration list for PBXNativeTarget "FlockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABB422331046E00E8D2AC /* Debug */,
+				846ABB432331046E00E8D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846ABB442331046E00E8D2AC /* Build configuration list for PBXNativeTarget "FlockAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABB452331046E00E8D2AC /* Debug */,
+				846ABB462331046E00E8D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846ABB472331046E00E8D2AC /* Build configuration list for PBXNativeTarget "FlockAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABB482331046E00E8D2AC /* Debug */,
+				846ABB492331046E00E8D2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846ABB112331046C00E8D2AC /* Project object */;
+}
