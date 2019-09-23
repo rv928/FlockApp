@@ -1,6 +1,5 @@
 //
 //  SharedClass.swift
-//  DMApp
 
 
 import UIKit

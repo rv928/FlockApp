@@ -44,9 +44,6 @@
 		84C6F84B23338F1B0073D1CF /* FeedListVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F84A23338F1B0073D1CF /* FeedListVMModel.swift */; };
 		84C6F84D23338F290073D1CF /* FeedCellVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F84C23338F290073D1CF /* FeedCellVMModel.swift */; };
 		84C6F8502333A36F0073D1CF /* AttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F84F2333A36E0073D1CF /* AttributedLabel.swift */; };
-		84C6F8572333A6A10073D1CF /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F8532333A6A10073D1CF /* CloseButton.swift */; };
-		84C6F8582333A6A10073D1CF /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F8542333A6A10073D1CF /* TagView.swift */; };
-		84C6F8592333A6A10073D1CF /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F8552333A6A10073D1CF /* TagListView.swift */; };
 		C87C6C3560AC74BF4E15A7E3 /* Pods_FlockAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17122E169E700B92C2C2F05 /* Pods_FlockAppTests.framework */; };
 		CAE7DCDB13AF65DD1060C93C /* Pods_FlockApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3039F3BC08EB14C9A796CB /* Pods_FlockApp.framework */; };
 /* End PBXBuildFile section */
@@ -115,10 +112,6 @@
 		84C6F84A23338F1B0073D1CF /* FeedListVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListVMModel.swift; sourceTree = "<group>"; };
 		84C6F84C23338F290073D1CF /* FeedCellVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellVMModel.swift; sourceTree = "<group>"; };
 		84C6F84F2333A36E0073D1CF /* AttributedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedLabel.swift; sourceTree = "<group>"; };
-		84C6F8522333A6A10073D1CF /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
-		84C6F8532333A6A10073D1CF /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
-		84C6F8542333A6A10073D1CF /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
-		84C6F8552333A6A10073D1CF /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
 		A4A43C58597463D7DEFABFA9 /* Pods-FlockAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FlockAppTests/Pods-FlockAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA76C49991655B8AB879EDAE /* Pods_FlockAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5DC71F18772BFB50CA5520 /* Pods-FlockApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockApp.debug.xcconfig"; path = "Target Support Files/Pods-FlockApp/Pods-FlockApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -409,7 +402,6 @@
 		846ABB602331067900E8D2AC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				84C6F8512333A6A10073D1CF /* TagListView */,
 				84C6F84E2333A36E0073D1CF /* AttributedLabel */,
 				84C6F8412333617E0073D1CF /* BoxButton */,
 				8473F9D5233241760067EB60 /* BorderTextField */,
@@ -554,17 +546,6 @@
 				84C6F84F2333A36E0073D1CF /* AttributedLabel.swift */,
 			);
 			path = AttributedLabel;
-			sourceTree = "<group>";
-		};
-		84C6F8512333A6A10073D1CF /* TagListView */ = {
-			isa = PBXGroup;
-			children = (
-				84C6F8522333A6A10073D1CF /* TagListView.h */,
-				84C6F8532333A6A10073D1CF /* CloseButton.swift */,
-				84C6F8542333A6A10073D1CF /* TagView.swift */,
-				84C6F8552333A6A10073D1CF /* TagListView.swift */,
-			);
-			path = TagListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -797,7 +778,6 @@
 				84C6F84B23338F1B0073D1CF /* FeedListVMModel.swift in Sources */,
 				8473F9D7233241760067EB60 /* BorderTextField.swift in Sources */,
 				84C6F846233387730073D1CF /* FeedListCell.swift in Sources */,
-				84C6F8592333A6A10073D1CF /* TagListView.swift in Sources */,
 				846ABB842331067A00E8D2AC /* UIColor+Hex.swift in Sources */,
 				8473F9DB233263590067EB60 /* FeedListViewController.swift in Sources */,
 				846ABB852331067A00E8D2AC /* UIImage+TintColor.swift in Sources */,
@@ -818,10 +798,8 @@
 				846ABB7E2331067A00E8D2AC /* DownloadManager.swift in Sources */,
 				846ABB8E23310CEC00E8D2AC /* LoginViewController.swift in Sources */,
 				846ABB7D2331067A00E8D2AC /* SharedClass.swift in Sources */,
-				84C6F8572333A6A10073D1CF /* CloseButton.swift in Sources */,
 				846ABB8A2331067A00E8D2AC /* AlertManager.swift in Sources */,
 				846ABB892331067A00E8D2AC /* Reachability.swift in Sources */,
-				84C6F8582333A6A10073D1CF /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

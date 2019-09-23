@@ -1,8 +1,6 @@
 //
 //  LoaderView.swift
-//  DMApp
 //
-//  Created by Ravi vora on 15/08/19.
 //  Copyright © 2019 Ravi vora. All rights reserved.
 //
 

@@ -41,7 +41,6 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepareSignUpView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -67,27 +66,7 @@ class SignUpViewController: UIViewController {
         let leftBarButton = UIBarButtonItem.init(customView: button)
         self.navigationItem.leftBarButtonItem = leftBarButton
         self.title = "SignUp"
-        
-        if UIDevice.current.iPhoneX {
-            self.navigationController?.navigationBar.prefersLargeTitles = true
-        }
     }
-    
-    
-    /*
-     This method will prepare TableView for Data Source.
-     */
-    private func prepareSignUpView() {
-       
-        self.firstNameTextField.text = "jamesk"
-        self.lastNameTextField.text = "jackson"
-        self.emailTextField.text = "jacksonk@mailiator.com"
-        self.passwordTextField.text = "12345678"
-        self.conPassTextField.text = "12345678"
-        self.contactNoTextField.text = "+919387478778"
-        self.genderType = "Male"
-    }
-    
     
     @objc func backButtonPressed(_ sender: Any) {
         navigationController?.popViewController(animated: true)

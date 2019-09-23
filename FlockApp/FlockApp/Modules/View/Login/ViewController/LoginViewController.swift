@@ -30,7 +30,6 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepareLoginView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,14 +39,6 @@ class LoginViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
-    
-    /*
-     This method will prepare LoginView.
-     */
-    private func prepareLoginView() {
-        self.emailTextField.text = "hari2@spotflock.com"
-        self.passwordTextField.text = "akjshdlaks"
     }
     
     // MARK:- Button Action Methods

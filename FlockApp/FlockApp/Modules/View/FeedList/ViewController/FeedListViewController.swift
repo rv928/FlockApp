@@ -45,10 +45,6 @@ class FeedListViewController: UIViewController {
         let leftBarButton = UIBarButtonItem.init(customView: button)
         self.navigationItem.rightBarButtonItem = leftBarButton
         self.title = "Feeds"
-        
-        if UIDevice.current.iPhoneX {
-            self.navigationController?.navigationBar.prefersLargeTitles = true
-        }
     }
   
     
